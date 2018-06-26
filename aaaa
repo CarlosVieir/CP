@@ -1,0 +1,17 @@
+Block 	(Cell 0 4 4) 
+	(Block (Cell 0 2 2) (Cell 0 2 2) (Cell 1 2 2)(Block (Cell 1 1 1) (Cell 0 1 1) (Cell 0 1 1) (Cell 0 1 1))) 
+	(Cell 1 4 4)
+	(Block (Cell 1 2 2) (Cell 0 2 2) (Cell 0 2 2)(Block (Cell 0 1 1) (Cell 0 1 1) (Cell 0 1 1) (Cell 1 1 1))
+
+
+scaleQTree :: Int → QTree a → QTree a
+Either (b0, (Int, Int)) (Int -> QTree (QTree a),(Int -> QTree (QTree a),(Int -> QTree (QTree a), Int -> QTree (QTree a)))) -> Int -> QTree (QTree a)
+Either Int              (Int -> QTree (QTree a),(Int -> QTree (QTree a),(Int -> QTree (QTree a), Int -> QTree (QTree a)))) -> Int -> QTree (QTree a)
+
+	Cell _ _ _      Block _ _ _ _ -> Int -> QTree (QTree a)
+	Int 		Block _ _ _ _ -> Int -> QTree (QTree a)
+
+
+Int -> QTree a -> QTree a
+QTree b0 -> QTree a -> Int -> Int -> QTree (QTree a)
+
